@@ -1,0 +1,61 @@
+/* me
+hmm
+au*/
+body{
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(175, 31, 247);
+
+}
+
+nav{
+    display: flex;
+    background-color: aquamarine;
+    color: rgb(147, 81, 209);
+    padding: 10px;
+    font-size: 20px;
+    gap: 30px;
+    position: fixed;
+    justify-content: center;
+}
+nav a{
+    color: darkgrey;
+    text-decoration: none;
+    font-weight: bolder;
+}
+nav a:hover{
+    color: rgb(240, 159, 132);
+}
+#me{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(119, 20, 189);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+#me img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+#hmm{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    gap: 10px; 
+}
+
+#hmm img{
+    width: auto;
+    height: 250px;
+    background-color: rgb(54, 238, 146);
+    padding: 10px;
+}
+#au{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    gap: 10px;
+}
